@@ -15,7 +15,7 @@
 //******************************************************************************
 
 #import <Foundation/NSCache.h>
-
+#import <Foundation/NSDiscardableContent.h>
 #import <Starboard/SmartTypes.h>
 
 #include <list>

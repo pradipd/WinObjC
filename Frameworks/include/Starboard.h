@@ -205,4 +205,8 @@ inline CAPoint3D operator*(float f, const CAPoint3D& v) {
     return CAPoint3D(v.x * f, v.y * f, v.z * f);
 }
 
+#if defined(__OBJC__)
+#include <Foundation/Foundation.h>
+#include <CoreFoundation/CFBase.h>
+#endif
 #include "Starboard/SmartTypes.h"

@@ -201,7 +201,7 @@ void _NSInvocationCallFrame::execute(void* functionPointer, void* returnValuePoi
     size_t frameLength = _offset;
 
     // alloca is guaranteed to give us a 16-byte aligned return.
-    uint8_t* stack = (uint8_t*)alloca(frameLength + sizeof(struct x86Frame));
+    uint8_t* stack = (uint8_t*)_alloca(frameLength + sizeof(struct x86Frame));
     x86Frame* frame = (x86Frame*)(stack + frameLength);
 
     memcpy(stack, _buffer, frameLength);

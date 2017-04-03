@@ -14,6 +14,7 @@
 //
 //******************************************************************************
 
+#include <CoreFoundation/CFBase.h>
 #import <Starboard/SmartTypes.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/CAShapeLayer.h>

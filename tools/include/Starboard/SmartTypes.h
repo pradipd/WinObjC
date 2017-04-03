@@ -19,8 +19,8 @@
 #include "Starboard/TypeTraits.h"
 
 #if defined(__OBJC__)
-#include <Foundation/Foundation.h>
-#include <CoreFoundation/CFBase.h>
+//#include <Foundation/Foundation.h>
+//#include <CoreFoundation/CFBase.h>
 #endif
 
 #if defined(__cplusplus)

@@ -14,6 +14,7 @@
 //
 //******************************************************************************
 
+#import <Foundation/Foundation.h>
 #import <Starboard/SmartTypes.h>
 #import "Benchmark.h"
 #import <CppUtils.h>

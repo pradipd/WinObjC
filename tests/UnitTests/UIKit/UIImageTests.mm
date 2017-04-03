@@ -14,6 +14,7 @@
 //
 //******************************************************************************
 
+#import <Foundation/Foundation.h>
 #import <Starboard/SmartTypes.h>
 #import <TestFramework.h>
 #import <UIKit/UIImage.h>
